@@ -12,7 +12,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, ContextTyp
 
 # ===== Настройки окружения =====
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-COOKIE_FILE = "путь до файла с куки"
+COOKIE_FILE = "cookies.txt"
 DEFAULT_COOKIEFILE = Path(COOKIE_FILE).expanduser() if COOKIE_FILE else None
 
 # Фильтр YouTube ссылок (watch, shorts, youtu.be)
